@@ -66,30 +66,39 @@ public class CalculadoraForm extends VerticalLayout{
 				case "1":
 					//Notification.show(op);
 					resultado.setValue(resultado.getValue()+op);
+					break;
 				case "2":
 					//Notification.show(op);
 					resultado.setValue(resultado.getValue()+op);
+					break;
 				case "3":
 					//Notification.show(op);
 					resultado.setValue(resultado.getValue()+op);
+					break;
 				case "4":
 					//Notification.show(op);
 					resultado.setValue(resultado.getValue()+op);
+					break;
 				case "5":
 					//Notification.show(op);
 					resultado.setValue(resultado.getValue()+op);
+					break;
 				case "6":
 					//Notification.show(op);
 					resultado.setValue(resultado.getValue()+op);
+					break;
 				case "7":
 					//Notification.show(op);
 					resultado.setValue(resultado.getValue()+op);
+					break;
 				case "8":
 					//Notification.show(op);
 					resultado.setValue(resultado.getValue()+op);
+					break;
 				case "9":
 					//Notification.show(op);
 					resultado.setValue(resultado.getValue()+op);
+					break;
 			}
 			
 		}
