@@ -63,6 +63,7 @@ public class CalculadoraForm extends VerticalLayout{
 		public void buttonClick(ClickEvent event) {
 			String op = event.getButton().getCaption();
 			switch(op) {
+			//Ejemplos
 				case "1":
 					//Notification.show(op);
 					resultado.setValue(resultado.getValue()+op);
