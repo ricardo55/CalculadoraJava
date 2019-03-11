@@ -64,11 +64,32 @@ public class CalculadoraForm extends VerticalLayout{
 			String op = event.getButton().getCaption();
 			switch(op) {
 				case "1":
-					Notification.show(op);
-					resultado.setValue(op);
+					//Notification.show(op);
+					resultado.setValue(resultado.getValue()+op);
 				case "2":
-					Notification.show(op);
-					resultado.setValue(op);
+					//Notification.show(op);
+					resultado.setValue(resultado.getValue()+op);
+				case "3":
+					//Notification.show(op);
+					resultado.setValue(resultado.getValue()+op);
+				case "4":
+					//Notification.show(op);
+					resultado.setValue(resultado.getValue()+op);
+				case "5":
+					//Notification.show(op);
+					resultado.setValue(resultado.getValue()+op);
+				case "6":
+					//Notification.show(op);
+					resultado.setValue(resultado.getValue()+op);
+				case "7":
+					//Notification.show(op);
+					resultado.setValue(resultado.getValue()+op);
+				case "8":
+					//Notification.show(op);
+					resultado.setValue(resultado.getValue()+op);
+				case "9":
+					//Notification.show(op);
+					resultado.setValue(resultado.getValue()+op);
 			}
 			
 		}
